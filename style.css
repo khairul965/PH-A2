@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    color: #483c3c;
+}
+.navbar{
+    max-width: 1140px;
+   background-color: beige;
+  margin: auto;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+     gap: 80px;
+    
+}
+nav ul li{
+   
+    list-style: none;
+}
+@media screen and (max-width:576px) {
+    .navbar{
+        margin: 0px;
+    }
+    .l1,.l2,.l3{
+        display: none;
+    }
+    
+}
+
+/*banner-section*/
+.banner-section{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    margin-top: 160px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .banner-section{
+        margin: 0px;
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    
+}
+
+/*plant section*/
+.plants{
+   
+    max-width: 1140px;
+    margin: auto;
+     margin-top: 160px;
+}
+.plants h1, p{
+    justify-content: center; 
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.card{
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0px 8px 6px 0px;
+}
+.btn{
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: #d35004;
+    
+}
