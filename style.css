@@ -40,7 +40,6 @@ nav ul li{
     margin: auto;
     display: flex;
     margin-top: 160px;
-    justify-content: center;
     align-items: center;
 }
 .banner-img{
@@ -63,6 +62,7 @@ nav ul li{
     max-width: 1140px;
     margin: auto;
      margin-top: 160px;
+      
 }
 .plants h1, p{
     justify-content: center; 
@@ -72,12 +72,14 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+   
 }
 .card{
     justify-content: center;
     text-align: center;
     background-color: antiquewhite;
     box-shadow: 0px 8px 6px 0px;
+    width: 100%;
 }
 .btn{
     width: 270px;
@@ -88,5 +90,69 @@ nav ul li{
 }
 .btn:hover{
     background-color: #d35004;
+    
+}
+@media screen and (max-width:576px) {
+    .plants{
+        margin: 0px;
+    }
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+       
+    }
+    .card{
+        width: 100%;
+        overflow: hidden;
+    }
+    .btn{
+        width: 100%;
+    }
+    
+}
+
+/*lover section*/
+.lover{
+    max-width: 1140px;
+    display: flex;
+    margin: auto;
+    margin-top: 160px;
+    gap: 50px;
+     align-items: center;
+}
+.badge{
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    left: 400px;
+    top: 1920px;
+}
+.badge img{
+    width: 100%;
+}
+.lover-content{
+    width: 100%;
+   
+}
+.lover-img{
+    width: 100%;
+}
+.lover-content ul{
+    margin-top: 50px;
+}
+.lover-content ul li{
+    margin-top: 50px;
+}
+@media screen and (max-width:576px) {
+    .lover{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .badge{
+        display: none;
+    }
+    .store-img img{
+        width: 100%;
+    }
     
 }
