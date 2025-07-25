@@ -24,6 +24,9 @@ nav ul li{
    
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 @media screen and (max-width:576px) {
     .navbar{
         margin: 0px;
@@ -199,6 +202,8 @@ nav ul li{
      align-items: center;
      border-radius: 8px;
      justify-content: center;
+     display: flex;
+     flex-direction: column;
 }
 .deal-left{
     display: grid;
