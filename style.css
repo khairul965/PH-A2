@@ -162,6 +162,7 @@ nav ul li{
     max-width: 1140px;
    margin: auto;
     margin-top: 150px;
+    margin-bottom: 140px;
 }
 
 
@@ -211,4 +212,45 @@ nav ul li{
        grid-template-columns: repeat(1, 1fr);
     }
     
+}
+
+/*join section*/
+.join{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.join-div{
+text-align: center;
+ align-items: center;
+ width: 800px;
+ height: 140px;
+ 
+ 
+}
+.btn2{
+    width: 180px;
+    height: 50px;
+    background-color: #E95A08;
+    cursor: pointer;
+    color: white;
+
+}
+.input{
+    width: 600px;
+    height: 50px;
+    border: none;
+    padding-left: 8px;
+}
+#email-btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
