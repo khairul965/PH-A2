@@ -254,3 +254,86 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+@media screen and (max-width:576px) {
+    .join{
+        width: 100%;
+    }
+    #email-btn{
+        width: 100%;
+        gap: 5px;
+    }
+    .btn2{
+        width: 100%;
+       
+    }
+    .input{
+        width: 100%;
+       
+    }
+}
+
+/*footer section*/
+.footer{
+    max-width: 1440px;
+    height: 348px;
+   
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.footer-content{
+    width: 1120px;
+    height: 248px;
+    display: flex;
+    margin: 50px 160px 50px 160px;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.fot-list1 ul li{
+   list-style: none;
+  
+}
+.fot-list2 ul li{
+    list-style: none;
+}
+.fot-list1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fot-list2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fot-icon{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width:576px) {
+    .footer-content{
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        margin: auto;
+       
+    }
+    .footer{
+       text-align: left;
+       width: 100%;
+    }
+    .fot-list1 ul{
+        align-items: center;
+    }
+    
+    .fot-list2 ul{
+        align-items: center;
+    }
+    
+    .fot-logo img{
+        align-items: center;
+    }
+    
+}
