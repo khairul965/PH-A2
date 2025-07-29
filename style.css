@@ -126,9 +126,9 @@ a{
 .badge{
     width: 250px;
     height: 250px;
-    position:absolute;
-    left: 400px;
-    top: 1920px;
+    position:relative;
+    left: 390px;
+    top: 100px;
 }
 .badge img{
     width: 100%;
